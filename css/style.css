@@ -1,0 +1,224 @@
+@import url("../src/Manrope/stylesheet.css");
+* {
+  font-family: "Manrope";
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #047481;
+}
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(112.92deg, rgba(255, 255, 255, 0.36) 10.45%, rgba(255, 255, 255, 0.09) 88.73%);
+}
+
+dl,
+ol,
+ul,
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+}
+
+.navbar__wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.menu > li > a {
+  text-decoration: none;
+}
+
+.navbar__wrap .menu {
+  display: flex;
+}
+
+.navbar__wrap .menu > li {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar__wrap .menu > li > a {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  color: #040508;
+  transition: all 0.2s;
+}
+
+.navbar__wrap .menu > li > a:hover {
+  color: #047481;
+  transition: all 0.2s;
+}
+
+.cont {
+  width: 100%;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-btn {
+  background-color: #047481;
+  padding: 0 24px;
+  height: 44px;
+  font-size: 13px;
+  color: #040508;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s;
+}
+.custom-btn:hover {
+  transition: all 0.3s;
+  background-color: #111928;
+}
+
+header .logo-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .number-callme {
+  display: flex;
+}
+header .number-callme a {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 24px;
+  font-size: 15px;
+  color: #040508;
+  line-height: 24px;
+  font-weight: 400;
+}
+header .number-callme a p {
+  font-size: 13px;
+  color: #040508;
+  line-height: 20px;
+  font-weight: 400;
+  color: #5e5f62;
+}/*# sourceMappingURL=style.css.map */

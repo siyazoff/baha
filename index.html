@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Baha" />
+    <meta property="og:description" content=""Превратите свой потолок в
+    произведение искусства с натяжными потолками! У нас вы найдете широкий выбор
+    стилей, цветов и фактур, чтобы создать идеальное сочетание для вашего
+    интерьера. Наша команда экспертов поможет вам выбрать потолок, который
+    подчеркнет стиль и элегантность вашего помещения." />
+    <title>Baha</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- cdn css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- !header starts  -->
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="cont">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="logo-menu">
+              <a href="#" class="logo" id="logo">
+                <img src="src/icons/Logo.svg" alt="logo" />
+              </a>
+              <ul class="menu" id="menu">
+                <li><a href="#work">как мы работаем</a></li>
+                <li><a href="#services">наши услуги</a></li>
+                <li><a href="#examples">примеры работ</a></li>
+                <li><a href="#before-after">до и после</a></li>
+                <li><a href="#contacts">контакты</a></li>
+              </ul>
+            </div>
+            <div class="number-callme">
+              <a href="tel:+7 (800) 700 00-00"
+                >+7 (800) 700 00-00
+                <p>Наятажные потолки в астане</p>
+              </a>
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#callMe"
+                class="custom-btn"
+              >
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="popup" id="popup"></div>
+    </header>
+    <!-- !header ends  -->
+
+    <!--* modal window  -->
+    <div
+      class="modal fade"
+      id="callMe"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="heading">
+              <h1>Оставить заявку</h1>
+            </div>
+            <form>
+              <input type="text" id="name" placeholder="Имя*" />
+              <input type="tel" id="tel-number" placeholder="Телефон*" />
+              <input type="submit" id="modal-btn" value="Отправить" />
+            </form>
+
+            <a class="close close-icon" data-dismiss="modal" aria-label="Close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+              >
+                <path
+                  d="M11.8334 1.34591L10.6542 0.166748L6.00008 4.82091L1.34591 0.166748L0.166748 1.34591L4.82091 6.00008L0.166748 10.6542L1.34591 11.8334L6.00008 7.17925L10.6542 11.8334L11.8334 10.6542L7.17925 6.00008L11.8334 1.34591Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/maskedinput.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/animation.js"></script>
+
+    <!-- <script>
+      AOS.init();
+    </script> -->
+
+    <script>
+      $("#myModal").on("shown.bs.modal", function () {
+        $("#myInput").trigger("focus");
+      });
+    </script>
+  </body>
+</html>
