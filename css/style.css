@@ -475,4 +475,104 @@ header .number-callme a p {
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 5;
+}
+
+.examples {
+  position: relative;
+  min-height: 852px;
+  padding: 100px 0;
+  background-color: white;
+}
+.examples::before {
+  position: absolute;
+  background: url(/src/img/bg-examples.png) no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  z-index: -10;
+  max-width: 1250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.examples .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.examples .heading h1 {
+  font-size: 43px;
+  color: #040508;
+  line-height: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.examples .swiper-buttons {
+  width: 100%;
+  max-width: 104px;
+  display: flex;
+  justify-content: space-between;
+}
+.examples .swiper-buttons .examples-swipe-prev,
+.examples .swiper-buttons .examples-swipe-next {
+  background-color: #111928;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+.examples .swiper-buttons .examples-swipe-prev img {
+  position: relative;
+  right: 1px;
+}
+.examples .swiper-buttons .examples-swipe-next img {
+  position: relative;
+  left: 1px;
+}
+.examples .big-examples-swiper {
+  width: 604px;
+  height: 524px;
+}
+.examples .work-info {
+  margin-top: 48px;
+  padding-left: 20px;
+}
+.examples .work-info .work-name h1 {
+  font-size: 20px;
+  color: #040508;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.examples .work-info .work-description p {
+  font-size: 17px;
+  color: #040508;
+  line-height: 28px;
+  font-weight: 400;
+  color: #5e5f62;
+}
+.examples .work-info .work-specifications {
+  display: flex;
+}
+.examples .img-examples-swiper {
+  width: 100%;
+  height: 100%;
+}
+.examples .img-examples-swiper .img-swipe-prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  z-index: 10;
+}
+.examples .img-examples-swiper .img-swipe-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 10px;
 }/*# sourceMappingURL=style.css.map */

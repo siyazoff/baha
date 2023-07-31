@@ -512,3 +512,125 @@ header {
     }
   }
 }
+
+.examples {
+  position: relative;
+  min-height: 852px;
+  padding: 100px 0;
+  background-color: white;
+
+  &::before {
+    position: absolute;
+    background: url(/src/img/bg-examples.png) no-repeat;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: -10;
+    max-width: 1250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      @include font(43px, 48px, 500);
+      text-transform: uppercase;
+      margin-bottom: 80px;
+    }
+  }
+
+  .swiper-buttons {
+    width: 100%;
+    max-width: 104px;
+    display: flex;
+    justify-content: space-between;
+
+    .examples-swipe-prev,
+    .examples-swipe-next {
+      background-color: $darkblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+    }
+
+    .examples-swipe-prev {
+      img {
+        position: relative;
+        right: 1px;
+      }
+    }
+
+    .examples-swipe-next {
+      img {
+        position: relative;
+        left: 1px;
+      }
+    }
+  }
+
+  .big-examples-swiper {
+    width: 604px;
+    height: 524px;
+  }
+
+  .work-info {
+    margin-top: 48px;
+    padding-left: 20px;
+
+    .work-name {
+      h1 {
+        @include font(20px, 24px, 500);
+        text-transform: uppercase;
+      }
+    }
+
+    .work-description {
+      p {
+        @include font(17px, 28px, 400);
+        color: $gray;
+      }
+    }
+
+    .work-specifications {
+      display: flex;
+
+      p.metre {
+      }
+
+      p.day {
+      }
+    }
+  }
+
+  .img-examples-swiper {
+    width: 100%;
+    height: 100%;
+
+    .internal-slide {
+    }
+
+    .img-swipe-prev {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      z-index: 10;
+    }
+
+    .img-swipe-next {
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      right: 10px;
+    }
+  }
+}
