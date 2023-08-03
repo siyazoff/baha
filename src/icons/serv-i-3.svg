@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/tick-square">
+<g id="vuesax/linear/tick-square_2">
+<g id="tick-square">
+<path id="Vector" d="M12.0013 29.3337H20.0013C26.668 29.3337 29.3346 26.667 29.3346 20.0003V12.0003C29.3346 5.33366 26.668 2.66699 20.0013 2.66699H12.0013C5.33464 2.66699 2.66797 5.33366 2.66797 12.0003V20.0003C2.66797 26.667 5.33464 29.3337 12.0013 29.3337Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="tree">
+<g id="Group">
+<path id="Vector_2" d="M19.2446 14.4914H12.7579C11.8401 14.4914 11.5212 13.8769 12.0579 13.1302L15.3012 8.58802C15.6823 8.04358 16.3201 8.04358 16.6935 8.58802L19.9368 13.1302C20.4812 13.8769 20.1624 14.4914 19.2446 14.4914Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M20.3507 20.6668H11.663C10.4341 20.6668 10.0141 19.8501 10.7374 18.8545L13.8407 14.4912H18.173L21.2763 18.8545C21.9996 19.8501 21.5796 20.6668 20.3507 20.6668Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_4" d="M16 23.7781V20.667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

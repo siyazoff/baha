@@ -579,8 +579,9 @@ header {
   }
 
   .big-examples-swiper {
-    width: 604px;
-    height: 524px;
+    width: 100%;
+    height: auto;
+    overflow: visible;
   }
 
   .work-info {
@@ -588,6 +589,7 @@ header {
     padding-left: 20px;
 
     .work-name {
+      margin-bottom: 16px;
       h1 {
         @include font(20px, 24px, 500);
         text-transform: uppercase;
@@ -600,16 +602,6 @@ header {
         color: $gray;
       }
     }
-
-    .work-specifications {
-      display: flex;
-
-      p.metre {
-      }
-
-      p.day {
-      }
-    }
   }
 
   .img-examples-swiper {
@@ -620,17 +612,24 @@ header {
     }
 
     .img-swipe-prev {
-      position: absolute;
-      top: 50%;
       left: 10px;
-      z-index: 10;
     }
 
     .img-swipe-next {
-      position: absolute;
-      top: 50%;
-      z-index: 10;
       right: 10px;
+    }
+
+    .img-swipe-btn {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #ffffff4d;
     }
   }
 }

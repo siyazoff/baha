@@ -536,12 +536,16 @@ header .number-callme a p {
   left: 1px;
 }
 .examples .big-examples-swiper {
-  width: 604px;
-  height: 524px;
+  width: 100%;
+  height: auto;
+  overflow: visible;
 }
 .examples .work-info {
   margin-top: 48px;
   padding-left: 20px;
+}
+.examples .work-info .work-name {
+  margin-bottom: 16px;
 }
 .examples .work-info .work-name h1 {
   font-size: 20px;
@@ -557,22 +561,25 @@ header .number-callme a p {
   font-weight: 400;
   color: #5e5f62;
 }
-.examples .work-info .work-specifications {
-  display: flex;
-}
 .examples .img-examples-swiper {
   width: 100%;
   height: 100%;
 }
 .examples .img-examples-swiper .img-swipe-prev {
-  position: absolute;
-  top: 50%;
   left: 10px;
-  z-index: 10;
 }
 .examples .img-examples-swiper .img-swipe-next {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
   right: 10px;
+}
+.examples .img-examples-swiper .img-swipe-btn {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3019607843);
 }/*# sourceMappingURL=style.css.map */
