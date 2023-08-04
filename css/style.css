@@ -482,16 +482,15 @@ header .number-callme a p {
   min-height: 852px;
   padding: 100px 0;
   background-color: white;
+  z-index: 1;
 }
 .examples::before {
   position: absolute;
-  background: url(/src/img/bg-examples.png) no-repeat;
+  background: url(/src/img/bg-examples.jpg) no-repeat;
   content: "";
   width: 100%;
   height: 100%;
   background-size: cover;
-  top: 0;
-  left: 0;
   opacity: 1;
   z-index: -10;
   max-width: 1250px;
